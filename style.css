@@ -1,0 +1,13 @@
+/* Exemplo de estilo extra */
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 4px;
+  }
+  
+  /* Adicione um leve efeito de parallax */
+  .bg-fixed {
+    background-attachment: fixed;
+  }
