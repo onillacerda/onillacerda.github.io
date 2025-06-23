@@ -14,9 +14,9 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
       <h1 class="text-xl font-bold"><a href="#topo">onillacerda.dev</a></h1>
       <nav class="space-x-4">
-        <a href="#about" class="hover:text-blue-500">Sobre</a>
-        <a href="#experience" class="hover:text-blue-500">Experiência</a>
-        <a href="#projects" class="hover:text-blue-500">Projetos</a>
+        <a href="#about" id="about-link" class="hover:text-blue-500"></a>
+        <a href="#experience" id="experience-link" class="hover:text-blue-500"></a>
+        <a href="#projects" id="projects-link" class="hover:text-blue-500"></a>
         <a href="https://github.com/onillacerda" target="_blank">
           <img src="assets/github.svg" alt="GitHub" class="w-5 inline">
         </a>
@@ -24,45 +24,40 @@
           <img src="assets/linkedin.svg" alt="LinkedIn" class="w-5 inline">
         </a>
       </nav>
+      <div class="inline-block">
+        <select id="lang-select" class="border rounded px-2 py-1">
+          <option value="pt">PT</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+      </div>   
     </div>
   </header>
 
   <!-- Hero -->
   <section class="h-screen bg-fixed bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('assets/hero-bg.jpg')" id="topo">
     <div class="p-10 rounded-xl" style="color: darkgray;">
-      <h2 class="text-4xl font-bold mb-4">Olá, eu sou Nilson Lacerda</h2>
-      <p class="text-xl">Desenvolvedor Sênior especializado em Angular, TypeScript e Node.js</p>
+      <h2 id="hero-title" class="text-4xl font-bold mb-4"></h2>
+      <p id="hero-subtitle" class="text-xl"></p>
+      <!-- <h2 class="text-4xl font-bold mb-4">Olá, eu sou Nilson Lacerda</h2>
+      <p class="text-xl">Desenvolvedor Sênior especializado em Angular, TypeScript e Node.js</p> -->
     </div>
   </section>
 
   <!-- Sobre -->
   <section id="about" class="py-20 bg-gray-50">
     <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6">Sobre</h2>
-      <p>Sou desenvolvedor com ampla experiência em projetos usando Angular, JavaScript e TypeScript. Tenho evoluído para aplicações FullStack com Node.js e já atuei como Tech Lead em projetos colaborativos. Gosto de código limpo, arquitetura sólida e soluções escaláveis.</p>
-      <p>🧠 Apaixonado por inovação e em adotar novas tecnologias que aprimoram processos e resultados.</p>
-        <p><br><b>Educação:</b> <br>
-        🎓 Especialização em Arquitetura de Sistemas de Informação - 2025 <br>
-        🎓 Especialização em Business Intelligence, Big Data e Inteligência Artificial - 2023 <br>
-        🎓 Pós-graduação em Gestão de Riscos e Cibersegurança - 2022 <br>
-        🎓 Pós-graduação em Engenharia de Sistemas (ESAB) - 2019 <br>
-        👨‍🎓 Superior em Análise e Desenvolvimento de Sistemas (UNIGRAN) - 2013 <br>
-        💻 Curso Técnico de Design e Devolvimento Web (UNIBRATEC) - 2008<br>
-        </p>
-        <p><b>Certificações: </b><br>
-        🔒 Oracle AI Foundations Associate (1Z0-1122-23) <br>
-        🔒 Fundamentals in Cybersecurity by IBSEC (2023) <br>
-        🔒 GenAI Technical Certification by Compass UOL (2024)
-        </p>
+      <h2 id="about-title" class="text-3xl font-bold mb-6"></h2>
+      <p id="about-desc"></p>
     </div>
   </section>
 
   <!-- Experiência -->
   <section id="experience" class="py-20">
     <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6">Experiência</h2>
-      <ul class="space-y-4">
-        <li>
+      <h2 id="experience-title" class="text-3xl font-bold mb-6"></h2>
+      <ul id="experience-desc" class="space-y-4">
+        <!-- <li>
           <h3 class="font-semibold">Software Developer Technical Lead | CompassUOL </h3>
           <p><i>De abr de 2022 até fev de 2025 · 2 ano 11 meses</i></p>
           <p>Trabalhei em diferentes e-commerces, utilizando tecnologias como React, Next.js, OCC e Node.js. Atuei em um sistema de análise de métricas com Angular + GraphQL + Node.js, sempre buscando otimizar a experiência do usuário e a performance da aplicação.</p>
@@ -83,7 +78,7 @@
           <h3 class="font-semibold" style="color: darkgray;">
             <i><a href="https://www.linkedin.com/in/onillacerda/">Mostrar todas as experiências</a></i>
           </h3>
-        </li>
+        </li> -->
       </ul>
     </div>
   </section>
@@ -91,7 +86,7 @@
   <!-- Projetos -->
   <section id="projects" class="py-20 bg-gray-100">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6">Projetos</h2>
+      <h2 id="projects-title" class="text-3xl font-bold mb-6"></h2>
       <div id="repo-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Repositórios serão inseridos aqui via JS -->
       </div>
@@ -100,7 +95,7 @@
 
   <!-- Footer -->
   <footer class="py-6 text-center bg-white shadow-inner">
-    <p>&copy; 2025 Nilson de Lacerda Oliveira Filho. Todos os direitos reservados.</p>
+    <h2 id="footer-text"></h2>
   </footer>
 
   <script src="script.js"></script>
