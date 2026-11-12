@@ -24,10 +24,10 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
   const translations = {
     pt: {
       heroTitle: "Olá, eu sou Nilson Lacerda",
-      heroSubtitle: "Lider Técnico e Desenvolvedor Sênior especializado em Angular, TypeScript e Node.js",
+      heroSubtitle: "Lider Técnico e Desenvolvedor Sênior especializado em Angular, React, TypeScript, Node.js e um pouco de Java (Spring Boot)",
       aboutTitle: "Sobre",
       aboutDescription: `
-        <p>Sou desenvolvedor com ampla experiência em projetos usando Angular, JavaScript e TypeScript, além de atuação com React em aplicações web modernas. Tenho evoluído para o desenvolvimento FullStack com Node.js e já atuei como Tech Lead em projetos colaborativos. Valorizo código limpo, arquitetura bem definida e soluções escaláveis.</p>
+        <p>Sou desenvolvedor com ampla experiência em projetos usando Angular, JavaScript e TypeScript, além de atuação com React em aplicações web modernas. Tenho evoluído para o desenvolvimento FullStack com Node.js e Java (Spring Boot), já atuei como Tech Lead em projetos colaborativos. Valorizo código limpo, arquitetura bem definida e soluções escaláveis.</p>
         <p>🧠 Apaixonado por inovação e em adotar novas tecnologias que aprimoram processos e resultados.</p>
         <p><br><b>Educação:</b><br>
           🎓 Pós-graduação lato sensu em Desenvolvimento Mobile (IMES) - 2026<br>
@@ -53,6 +53,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
             <p><i>De ago de 2025 até o momento · Tempo integral</i></p>
             <p><b>Modernização da infraestrutura digital da maior distribuidora de gás canalizado do Brasil.</b>  Arquitetura & Unificação: Responsável pela arquitetura front-end e unificação das plataformas "Nossa Rede" e "Comgás Virtual", criando um sistema agnóstico (Desktop, Tablet e Mobile) para gestão de chamados em campo.</p>
             <p><b>Arquitetura Multiplataforma</b> Desenvolvimento de sistema híbrido (Desktop, Tablet e Mobile) utilizando Angular, garantindo que técnicos em campo tenham acesso resiliente a chamados de manutenção de infraestrutura crítica.</p>
+            <p><b>Suporte e Manutenção:</b> Atuação em suporte e manutenção de sistemas "Portobank" usando Salesforce, garantindo a continuidade operacional e a evolução das soluções existentes.</p>
           </li>
           <li>
             <h3 class="font-semibold">Software Developer Technical Lead | CompassUOL</h3>
@@ -82,10 +83,10 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
     },
     en: {
       heroTitle: "Hello, I'm Nilson Lacerda",
-      heroSubtitle: "Tech Lead and Senior Developer specialized in Angular, TypeScript, and Node.js",
+      heroSubtitle: "Tech Lead and Senior Developer specialized in Angular, React, TypeScript, Node.js and a bit of Java (Spring Boot)",
       aboutTitle: "About",
       aboutDescription: `
-        <p>I am a developer with extensive experience in projects using Angular, JavaScript, and TypeScript, along with experience working with React in modern web applications. I have been evolving into FullStack development with Node.js and have worked as a Tech Lead in collaborative projects. I value clean code, well-defined architecture, and scalable solutions.</p>
+        <p>I am a developer with extensive experience in projects using Angular, JavaScript, and TypeScript, along with experience working with React in modern web applications. I have been evolving into FullStack development with Node.js and Java (Spring Boot). I have worked as a Tech Lead in collaborative projects. I value clean code, well-defined architecture, and scalable solutions.</p>
         <p>🧠 Passionate about innovation and adopting new technologies that improve processes and results.</p>
         <p><br><b>Education:</b><br>
           🎓 Postgraduate Degree in Mobile Development (IMES) - 2026<br>
@@ -111,6 +112,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
             <p><i>From Aug 2025 to Present · Full-time</i></p>
             <p><b>Modernization of the digital infrastructure of the largest piped gas distributor in Brazil.</b> Architecture & Unification: Responsible for front-end architecture and unification of the "Nossa Rede" and "Comgás Virtual" platforms, creating an agnostic system (Desktop, Tablet, and Mobile) for field service management.</p>
             <p><b>Multiplatform Architecture:</b> Development of a hybrid system (Desktop, Tablet, and Mobile) using Angular, ensuring that field technicians have resilient access to critical infrastructure maintenance requests.</p>
+            <p><b>Support and Maintenance:</b> Involved in support and maintenance of "Portobank" systems using Salesforce, ensuring operational continuity and the evolution of existing solutions.</p>
           </li>
           <li>
             <h3 class="font-semibold">Software Developer Technical Lead | CompassUOL</h3>
@@ -140,10 +142,10 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
     },
     es: {
       heroTitle: "Hola, soy Nilson Lacerda",
-      heroSubtitle: "Desarrollador Senior especializado en Angular, TypeScript y Node.js",
+      heroSubtitle: "Desarrollador Senior especializado en Angular, TypeScript, Node.js y un poco de Java (Spring Boot)",
       aboutTitle: "Sobre mí",
       aboutDescription: `
-        <p>Soy desarrollador con amplia experiencia en proyectos utilizando Angular, JavaScript y TypeScript, además de experiencia trabajando con React en aplicaciones web modernas. He estado evolucionando hacia el desarrollo FullStack con Node.js y he trabajado como Tech Lead en proyectos colaborativos. Valoro el código limpio, una arquitectura bien definida y soluciones escalables.</p>
+        <p>Soy desarrollador con amplia experiencia en proyectos utilizando Angular, JavaScript y TypeScript, además de experiencia trabajando con React en aplicaciones web modernas. He estado evolucionando hacia el desarrollo FullStack con Node.js y Java (Spring Boot), y he trabajado como Tech Lead en proyectos colaborativos. Valoro el código limpio, una arquitectura bien definida y soluciones escalables.</p>
         <p>🧠 Apasionado por la innovación y la adopción de nuevas tecnologías que mejoran procesos y resultados.</p>
         <p><br><b>Educación:</b><br>
           🎓 Posgrado en Desarrollo Mobile (IMES) - 2026<br>
@@ -169,6 +171,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos?per_page=100`)
             <p><i>De ago de 2025 hasta la actualidad · Tiempo completo</i></p>
             <p><b>Modernización de la infraestructura digital de la mayor distribuidora de gas canalizado de Brasil.</b> Arquitectura y Unificación: Responsable de la arquitectura front-end y la unificación de las plataformas "Nossa Rede" y "Comgás Virtual", creando un sistema agnóstico (Desktop, Tablet y Mobile) para la gestión de servicios en campo.</p>
             <p><b>Arquitectura Multiplataforma:</b> Desarrollo de un sistema híbrido (Desktop, Tablet y Mobile) utilizando Angular, garantizando que los técnicos en campo tengan acceso resiliente a solicitudes de mantenimiento de infraestructura crítica.</p>
+            <p><b>Soporte y Mantenimiento:</b> Participación en soporte y mantenimiento de sistemas "Portobank" utilizando Salesforce, asegurando la continuidad operativa y la evolución de las soluciones existentes.</p>
           </li>
           <li>
             <h3 class="font-semibold">Technical Lead Desarrollador de Software | CompassUOL</h3>
